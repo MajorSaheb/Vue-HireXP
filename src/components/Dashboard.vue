@@ -3,7 +3,7 @@
     <div v-for="item in items" :key="item.id">
       <md-card>
         <md-card-header>
-          <div class="md-title">Chart</div>
+          <div class="md-title">{{ item.name }}</div>
         </md-card-header>
 
         <md-card-content>
