@@ -1,6 +1,6 @@
 <template>
   <div class="aboutLayout">
-    <vue-carousel :data="data" :interval="5000" :controls="false"></vue-carousel>
+    <vue-carousel :data="data" :interval="5000" :controls="false" :autoplay="true" :slideOnSwipe="true" ></vue-carousel>
   </div>
 </template>
 
